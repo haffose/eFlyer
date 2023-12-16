@@ -2,7 +2,7 @@ version: '2.4'
 services:
   apache:
     image: httpd:latest
-    container_name: eflyer
+    container_name: eflyer2
     ports:
     - '8080:80'
     volumes:
