@@ -10,7 +10,7 @@ node('linode-app-server')
     {
         /* This builds the actual image;
         * This is synonymous to docker build on the command line */
-        app =docker.build("haffose/eflyer2")    
+        app =docker.build("haffose/my-eflyer")    
     }
     stage('Post-to-dockerhub')
     {
