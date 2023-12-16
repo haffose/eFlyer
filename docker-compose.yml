@@ -6,4 +6,4 @@ services:
     ports:
     - '8080:80'
     volumes:
-    - ./eflyer:/usr/local/apache2/htdocs
+    - ./my-eflyer:/usr/local/apache2/htdocs
